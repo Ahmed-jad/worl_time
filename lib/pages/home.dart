@@ -96,9 +96,11 @@ class _HomeState extends State<Home> {
                 });
               },
               icon: Icon(Icons.edit_location, color: Colors.grey[200],),
-              label: Text('Edit LOcation',
+              label: Text('Choose Location',
                 style: TextStyle(
                   color: Colors.white,
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
                 ),
               )),
 
@@ -109,9 +111,9 @@ class _HomeState extends State<Home> {
                     Text(
                       data['location'],
                       style: TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         letterSpacing: 2,
-                        color: Colors.white,
+                        color: Colors.orange,
                       ),
                     )
                   ],
